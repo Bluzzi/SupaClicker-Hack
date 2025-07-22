@@ -25,10 +25,7 @@ const getCryptoKey = async () => {
 const saveGame = async (payload: string) => {
   const response = await fetch("https://supaclicker.vercel.app/api/game/save", {
     method: "POST",
-    headers: {
-      ...BASE_HEADERS,
-      "x-game-signature": payload,
-    },
+    headers: BASE_HEADERS,
     body: payload,
   });
 
