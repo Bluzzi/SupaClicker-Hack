@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // Base options:
+    "sourceMap": true,
+    "target": "es2024",
+    "moduleDetection": "force",
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+
+    // Strictness:
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noUncheckedSideEffectImports": true,
+
+    // Path alias:
+    "baseUrl": ".",
+    "paths": {
+      "#/*": ["./src/*"]
+    },
+
+    // Not transpiling with TypeScript (tsc):
+    "module": "Preserve",
+    "noEmit": true,
+
+    // Lib options:
+    "lib": ["ES2024"]
+  }
+}
