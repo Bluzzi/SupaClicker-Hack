@@ -7,3 +7,5 @@ To use the script, you need to connect to the game's website and retrieve the li
 ```php
 COOKIES="sb-ludyyxcyrqfzlwhexilp-auth-token-code-verifier=...; sb-ludyyxcyrqfzlwhexilp-auth-token=..."
 ```
+
+Then, you can execute this command to get all the stats maxed: `pnpm run exec`.
